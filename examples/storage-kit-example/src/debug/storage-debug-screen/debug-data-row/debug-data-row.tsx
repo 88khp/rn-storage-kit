@@ -1,4 +1,4 @@
-import { Box, CorePressable, CoreText, Row } from '@devraj-labs/vajra-ui-core';
+import { Box, CorePressable, CoreText, Row } from '@88khp/vajra-core';
 import React, { memo, useState } from 'react';
 import { Clipboard } from 'react-native';
 import { DC } from '../debug-colors';

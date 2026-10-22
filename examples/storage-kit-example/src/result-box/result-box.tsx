@@ -1,6 +1,6 @@
 import { Box, CoreText } from '@vajra-ui/core';
 import React from 'react';
-import { DC } from '@devraj-labs/rn-storage-kit';
+import { DC } from '@88khp/rn-storage-kit';
 import { TResultBoxProps } from './result-box-types';
 
 // undefined = nothing run yet; null = key missing; string = result or error

@@ -1,6 +1,6 @@
 import { CorePressable, CoreText, Row } from '@vajra-ui/core';
 import React from 'react';
-import { DC } from '@devraj-labs/rn-storage-kit';
+import { DC } from '@88khp/rn-storage-kit';
 import { TTab, TTabBarProps } from './tab-bar-types';
 
 const TABS: { key: TTab; label: string }[] = [

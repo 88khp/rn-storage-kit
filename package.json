@@ -1,5 +1,5 @@
 {
-  "name": "@devraj-labs/rn-storage-kit",
+  "name": "@88khp/rn-storage-kit",
   "version": "0.3.2",
   "description": "Unified storage API for React Native — MMKV key-value, Keychain secrets, and structured logging behind one interface",
   "main": "dist/index.js",
@@ -71,7 +71,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/devraj-labs/rn-storage-kit.git"
+    "url": "https://github.com/88khp/rn-storage-kit.git"
   },
   "license": "MIT",
   "jest": {

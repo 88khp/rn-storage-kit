@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView, ScrollView, StatusBar, StyleSheet, View } from 'react-native';
-import { enableLogger } from '@devraj-labs/rn-storage-kit';
+import { enableLogger } from '@88khp/rn-storage-kit';
 import { DC, StorageDebugFab, StorageDebugScreen } from '../debug';
 import { StoragePlaygroundScreen } from '../screens/storage-playground';
 import { TodoScreen } from '../screens/todo';

@@ -1,4 +1,4 @@
-import { CorePressable, CoreText } from '@devraj-labs/vajra-ui-core';
+import { CorePressable, CoreText } from '@88khp/vajra-core';
 import React from 'react';
 import { DC } from '../debug-colors';
 

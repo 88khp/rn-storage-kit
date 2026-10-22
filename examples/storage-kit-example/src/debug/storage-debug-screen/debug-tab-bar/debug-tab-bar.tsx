@@ -1,4 +1,4 @@
-import { CorePressable, CoreText, Row } from '@devraj-labs/vajra-ui-core';
+import { CorePressable, CoreText, Row } from '@88khp/vajra-core';
 import React, { memo } from 'react';
 import { DC } from '../debug-colors';
 import { TDebugTab, TTabBarProps } from '../storage-debug-screen-types';

@@ -1,7 +1,7 @@
 import { Box, Col, CorePressable, CoreText, CoreTextInput, Row } from '@vajra-ui/core';
 import React, { useEffect, useState } from 'react';
 import { Modal } from 'react-native';
-import { DC } from '@devraj-labs/rn-storage-kit';
+import { DC } from '@88khp/rn-storage-kit';
 import { TTodoEditModalProps } from './todo-edit-modal-types';
 
 export function TodoEditModal({ todo, onSave, onClose }: TTodoEditModalProps) {

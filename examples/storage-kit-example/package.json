@@ -10,9 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@devraj-labs/rn-storage-kit": "file:../..",
-    "@devraj-labs/vajra-ui-core": "^2.0.1",
-    "@vajra-ui/core": "^0.1.1",
+    "@88khp/rn-storage-kit": "file:../..",
+    "@88khp/vajra-core": "^3.0.0",
     "react": "19.2.3",
     "react-native": "0.84.1",
     "react-native-keychain": "^8.2.0",

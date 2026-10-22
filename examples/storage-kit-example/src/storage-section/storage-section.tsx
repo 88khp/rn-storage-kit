@@ -1,7 +1,7 @@
 import { Box, Col, CorePressable, CoreText, CoreTextInput, Row } from '@vajra-ui/core';
 import React, { useState } from 'react';
 import { ActivityIndicator } from 'react-native';
-import { DC, MMKVStorageAdapter, SecureStorageAdapter } from '@devraj-labs/rn-storage-kit';
+import { DC, MMKVStorageAdapter, SecureStorageAdapter } from '@88khp/rn-storage-kit';
 import { ResultBox } from '../result-box';
 import { TStorageSectionProps } from './storage-section-types';
 

@@ -22,7 +22,7 @@ const config = {
       get: (_, name) => path.resolve(appNodeModules, name),
     }),
     resolveRequest: (context, moduleName, platform) => {
-      if (moduleName === '@devraj-labs/rn-storage-kit') {
+      if (moduleName === '@88khp/rn-storage-kit') {
         return { filePath: path.resolve(root, 'src/index.ts'), type: 'sourceFile' };
       }
       return context.resolveRequest(context, moduleName, platform);

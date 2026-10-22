@@ -4,8 +4,8 @@
 
 <p>Unified storage for React Native. One interface — fast key-value, encrypted secrets, and structured logs.</p>
 
-[![npm version](https://img.shields.io/npm/v/@devraj-labs/rn-storage-kit?style=flat-square&color=blue)](https://www.npmjs.com/package/@devraj-labs/rn-storage-kit)
-[![license](https://img.shields.io/npm/l/@devraj-labs/rn-storage-kit?style=flat-square)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@88khp/rn-storage-kit?style=flat-square&color=blue)](https://www.npmjs.com/package/@88khp/rn-storage-kit)
+[![license](https://img.shields.io/npm/l/@88khp/rn-storage-kit?style=flat-square)](./LICENSE)
 [![react-native](https://img.shields.io/badge/react--native-%3E%3D0.73-blue?style=flat-square)](https://reactnative.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?style=flat-square)](https://www.typescriptlang.org)
 
@@ -26,7 +26,7 @@
 ## Installation
 
 ```sh
-npm install @devraj-labs/rn-storage-kit
+npm install @88khp/rn-storage-kit
 ```
 
 ### Peer dependencies
@@ -48,7 +48,7 @@ Follow the native setup guides for both libraries:
 Fast, synchronous storage wrapped in a promise-based interface.
 
 ```ts
-import { MMKVStorageAdapter } from '@devraj-labs/rn-storage-kit';
+import { MMKVStorageAdapter } from '@88khp/rn-storage-kit';
 
 const storage = new MMKVStorageAdapter();
 // optionally scope to a named MMKV instance:
@@ -66,7 +66,7 @@ const keys = await storage.getAllKeys();
 Identical interface — swap the adapter, get hardware-backed encryption.
 
 ```ts
-import { SecureStorageAdapter } from '@devraj-labs/rn-storage-kit';
+import { SecureStorageAdapter } from '@88khp/rn-storage-kit';
 
 const secure = new SecureStorageAdapter();
 
@@ -90,7 +90,7 @@ Production-safe structured logging for every storage operation. **Disabled by de
 Call once at app startup, before any storage operations:
 
 ```ts
-import { enableLogger } from '@devraj-labs/rn-storage-kit';
+import { enableLogger } from '@88khp/rn-storage-kit';
 
 enableLogger({
   level: 'debug',           // 'none' | 'error' | 'info' | 'debug'
@@ -103,7 +103,7 @@ enableLogger({
 ### Disable
 
 ```ts
-import { disableLogger } from '@devraj-labs/rn-storage-kit';
+import { disableLogger } from '@88khp/rn-storage-kit';
 
 disableLogger();
 ```
@@ -111,7 +111,7 @@ disableLogger();
 ### Read and clear logs
 
 ```ts
-import { getLogs, clearLogs } from '@devraj-labs/rn-storage-kit';
+import { getLogs, clearLogs } from '@88khp/rn-storage-kit';
 
 const entries = getLogs(); // TStorageLogEntry[]
 clearLogs();
@@ -120,7 +120,7 @@ clearLogs();
 ### Subscribe to new entries
 
 ```ts
-import { onNewLog, offNewLog } from '@devraj-labs/rn-storage-kit';
+import { onNewLog, offNewLog } from '@88khp/rn-storage-kit';
 
 const handler = (entry) => console.log(entry);
 onNewLog(handler);

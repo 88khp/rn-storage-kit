@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { TStorageLogEntry, clearLogs, getLogs, offNewLog, onNewLog } from '@devraj-labs/rn-storage-kit';
+import { TStorageLogEntry, clearLogs, getLogs, offNewLog, onNewLog } from '@88khp/rn-storage-kit';
 import { TLogRowProps } from './storage-debug-panel-types';
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────

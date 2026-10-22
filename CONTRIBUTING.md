@@ -5,7 +5,7 @@ Thanks for taking the time to contribute.
 ## Getting started
 
 ```sh
-git clone https://github.com/devraj-labs/rn-storage-kit.git
+git clone https://github.com/88khp/rn-storage-kit.git
 cd rn-storage-kit
 npm install
 ```

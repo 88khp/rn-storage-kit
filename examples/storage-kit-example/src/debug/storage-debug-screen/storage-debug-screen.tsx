@@ -1,8 +1,8 @@
-import { Box, Col } from '@devraj-labs/vajra-ui-core';
+import { Box, Col } from '@88khp/vajra-core';
 import React, { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { FlatList, Modal } from 'react-native';
 import { MMKV } from 'react-native-mmkv';
-import { clearLogs, getLogs, offNewLog, onNewLog, TStorageLogEntry } from '@devraj-labs/rn-storage-kit';
+import { clearLogs, getLogs, offNewLog, onNewLog, TStorageLogEntry } from '@88khp/rn-storage-kit';
 import { DC } from './debug-colors';
 import { DebugDataRow } from './debug-data-row';
 import { DebugEmpty } from './debug-empty';

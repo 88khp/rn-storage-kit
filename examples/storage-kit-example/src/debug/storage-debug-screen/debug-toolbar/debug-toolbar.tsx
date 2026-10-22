@@ -1,4 +1,4 @@
-import { Box, CorePressable, CoreText, CoreTextInput, Row } from '@devraj-labs/vajra-ui-core';
+import { Box, CorePressable, CoreText, CoreTextInput, Row } from '@88khp/vajra-core';
 import React from 'react';
 import { DC } from '../debug-colors';
 import { TDebugToolbarProps } from './debug-toolbar-types';

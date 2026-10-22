@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { MMKVStorageAdapter } from '@devraj-labs/rn-storage-kit';
+import { MMKVStorageAdapter } from '@88khp/rn-storage-kit';
 import { TTodo, TTodoSchema } from './todo-screen-types';
 
 const todoStorage = new MMKVStorageAdapter<TTodoSchema>('rn-storage-kit.todos');
