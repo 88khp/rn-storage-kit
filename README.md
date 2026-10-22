@@ -23,6 +23,30 @@
 
 ---
 
+## Is it for you?
+
+### Why use it
+
+- You need fast key-value storage and encrypted secrets in React Native, behind one API.
+- You want logs for storage calls that never leak secret values.
+
+### The problem it solves
+
+Preferences, secrets and debug logging usually each bring their own library and their own API. Telling general data apart from credentials means wiring two implementations. Getting useful logs without leaking tokens is a separate problem. This package puts all three behind one `async get / set / remove / clear` interface.
+
+### Who it's not for
+
+- Apps that need relational data or queries. Use a database library.
+- Web or Node.js projects. The package targets React Native and depends on `react-native-mmkv` and `react-native-keychain`.
+
+### What it doesn't do
+
+- It doesn't sync data to a server or across devices.
+- It doesn't store secrets in MMKV. Secrets go to Keychain only.
+- It doesn't log in production unless you pass `allowInProduction: true`.
+
+---
+
 ## Installation
 
 ```sh
